@@ -1,3 +1,3 @@
 # Eduford-web
 
-hello
+this is my practice education website
