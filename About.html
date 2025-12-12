@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&family=Noto+Sans+Duployan:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="./logo.png" alt=""></a>
+        <div class="nav-link" id="navlink"> 
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+      <i class="fa-solid fa-bars" onclick="showmenu()" ></i>
+    </nav>
+    <h1>About Us</h1>
+    </section>
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the World's Largest University</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quisquam, quidem. 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quisquam, quidem.
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                     Quisquam, quidem.</p>
+                    <a href="" class="hero-btn red-btn" >EXPLORE NOW </a>
+            </div>
+            <div class="about-col">
+                <img src="./eduford_img/about.jpg" alt="">
+            </div>
+        </div>
+
+   
+    <!-- footer -->
+
+    <section class="footer" >
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> Eveniet aliquid vel illum, non consequatur tempore ipsum ullam laudantium molestias placeat rerum fuga ad, <br>
+            voluptatem blanditiis neque facilis saepe, distinctio excepturi.</p>
+
+        <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <p>Made with   <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+
+    </section>
+
+</body>
+<script>
+    var navlink = document.getElementById("navlink");
+    function showmenu(){
+        navlink.style.right="0";
+    }
+    function hidemenu(){
+        navlink.style.right="-200px";
+    }
+</script>
+</html>
